@@ -16,6 +16,8 @@ let package = Package(
         .executableTarget(
             name: "EmailScraper",
             dependencies: [],
-            path: "Sources")
+            path: "Sources",
+            resources: [.process("Resources")]
+        )
     ]
 )
